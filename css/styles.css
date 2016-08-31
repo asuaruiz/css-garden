@@ -1,0 +1,68 @@
+body {
+    color: #092102;
+    background-image: url("../img/hola.jpg");
+    font-family: Arial;
+} 
+h1 {
+    text-align: center;
+    color: green;
+    font-size: 120px;
+    font-family: fantasy;
+}
+h2 {
+    text-align: center;
+    color: brown;
+}
+h3 { 
+    font: Courier;
+    letter-spacing: 1px; 
+    margin-bottom: 0; 
+    color: #8B4513;
+}
+p {
+    text-align: justify;
+}
+.summary {
+    text-align: center;
+}
+.preamble {
+    clear: right; 
+    padding: 0px 10px 0 10px;
+    width: 80%;
+}
+.explanation {
+    width: 50%;
+    float:right;
+    margin-left: 30px;
+}
+.participation {
+    width: 50%;
+}
+.supporting {   
+    padding-left: 10px; 
+    margin-bottom: 40px;
+}
+.page-wrapper { 
+    padding: 0 175px 0 110px;  
+    margin: 0; 
+    position: relative;
+}
+
+.intro { 
+    min-width: 470px;
+    width: 100%;
+    }
+}
+.select{
+    margin-top: 0px;
+}	   
+.sidebar {
+    float: right;
+}
+.sidebar {
+    margin-left: 400px; 
+    position: absolute; 
+    top: 100px; 
+    right: 0;
+    border-color: black;
+}
